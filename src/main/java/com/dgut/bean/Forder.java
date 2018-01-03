@@ -19,9 +19,7 @@ public class Forder {
 
     private Integer studentId;
 
-    //private Integer teacherRequirementId;
-    
-    private TeacherRequirement teacherRequirement;
+    private Integer teacherRequirementId;
 
     public Integer getId() {
         return id;
@@ -87,19 +85,11 @@ public class Forder {
         this.studentId = studentId;
     }
 
-	public TeacherRequirement getTeacherRequirement() {
-		return teacherRequirement;
-	}
-
-	public void setTeacherRequirement(TeacherRequirement teacherRequirement) {
-		this.teacherRequirement = teacherRequirement;
-	}
-
-   /* public Integer getTeacherRequirementId() {
+    public Integer getTeacherRequirementId() {
         return teacherRequirementId;
     }
 
     public void setTeacherRequirementId(Integer teacherRequirementId) {
         this.teacherRequirementId = teacherRequirementId;
-    }*/
+    }
 }

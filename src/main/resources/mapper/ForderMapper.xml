@@ -10,9 +10,8 @@
     <result column="admin_id" jdbcType="INTEGER" property="adminId" />
     <result column="admin_name" jdbcType="VARCHAR" property="adminName" />
     <result column="student_id" jdbcType="INTEGER" property="studentId" />
-    <association property="teacherRequirement" column="teacher_requirement_id" select="com.dgut.dao.TeacherRequirementMapper.selectByPrimaryKey"></association>
+    <result column="teacher_requirement_id" jdbcType="INTEGER" property="teacherRequirementId" />
   </resultMap>
-  
   <sql id="Example_Where_Clause">
     <where>
       <foreach collection="oredCriteria" item="criteria" separator="or">

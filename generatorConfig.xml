@@ -20,9 +20,9 @@
 		<javaClientGenerator targetPackage="com.dgut.dao"
 			targetProject="online_teacher_info/src/main/java" type="XMLMAPPER" />
 		
-		<table tableName="teacher_requirement"/>
-		<table tableName="teacher">
-		</table>
+		<table tableName="forder"/>
+		
+	
 		
 	</context>
 </generatorConfiguration>
